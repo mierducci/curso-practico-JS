@@ -1,2 +1,2 @@
 # curso-practico-JS
-clone2
+clone2d

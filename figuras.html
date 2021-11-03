@@ -7,9 +7,82 @@
     <title>Figuras Geometricas | Curso Practico de JS</title>
 </head>
 <body>
-    <h1>
-        Figuras Geometricas
-    </h1>
-    <script src="./figuras.js"> </script>
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1>
+        <p>Primer curos practico JS</p>    
+    </header>
+
+    <section>
+
+        <h2> Calcula el area y perimetro de un cuadrado </h2>
+        <form>
+            <label for="InputCuadrado">
+
+                Escribe cuanto mide cada lado de tu cuadrado
+
+            </label>
+                
+            <input id="InputCuadrado" type="number"/>
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular Perimetro
+            </button>
+
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular Area
+            </button>
+        </form>
+    </section>
+
+    <section>
+
+        <h2> Calcula el area y perimetro de un triangulo </h2>
+        <form>
+            <label for="InputTriangulo">
+
+                Escribe cuanto mide cada lado de tu triangulo
+
+            </label>
+                
+            <input id="InputTriangulo" type="number"/>
+
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular Perimetro
+            </button>
+
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular Area
+            </button>
+        </form>
+    </section>
+    
+
+
+    <section>
+
+        <h2> Calcula el area y perimetro de un Circulo </h2>
+        <form>
+            <label for="InputCirculo">
+
+                Escribe cuanto mide cada lado de tu Circulo
+
+            </label>
+                
+            <input id="InputCirculo" type="number"/>
+
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Calcular Perimetro
+            </button>
+
+            <button type="button" onclick="calcularAreaCirculo()">
+                Calcular Area
+            </button>
+        </form>
+    </section>
+
+
+    <script src="./figuras2.js"> </script>
 </body>
 </html>

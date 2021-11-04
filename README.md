@@ -14,3 +14,7 @@
 - Implmentar formulas JS
 - Funciones 
 - Integrar Js con html
+
+# Taller 3: promedio mediana y moda
+- Primer paso: definir formulas
+- Implmentar formulas JS Funciones
